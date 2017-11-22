@@ -1,0 +1,149 @@
+file 1775454 1511381111                                         
+version 2
+run General-0-20171122-17:05:10-26354
+attr configname General
+attr datetime 20171122-17:05:10
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Aloha
+attr processid 26354
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param Aloha.numHosts 10
+param Aloha.slotTime 100ms
+param Aloha.txRate 27kbps
+param Aloha.host[*].pkLenBits 952b
+param Aloha.host[*].radioDelay ms
+param Aloha.server.pkLenBits 952b
+param Aloha.server.radioDelay 10ms
+param Aloha.server.iaTime exponential(0.4s)
+param Aloha.host[*].distance "normal(1, 3)"
+param Aloha.sf*.per 0
+
+vector 0 Aloha.host[0] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 1 Aloha.host[1] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 2 Aloha.host[2] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 3 Aloha.host[3] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 4 Aloha.host[4] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 5 Aloha.host[5] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 6 Aloha.host[6] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 7 Aloha.host[7] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 8 Aloha.host[8] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 9 Aloha.host[9] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 10 Aloha.sf7 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 11 Aloha.sf8 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 12 Aloha.sf9 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 13 Aloha.sf10 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 14 Aloha.sf11 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 15 Aloha.sf12 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 16 Aloha.host[0] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+vector 17 Aloha.host[1] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+vector 18 Aloha.host[2] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+vector 19 Aloha.host[3] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+vector 20 Aloha.host[4] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+vector 21 Aloha.host[5] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+vector 22 Aloha.host[6] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+vector 23 Aloha.host[7] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+vector 24 Aloha.host[8] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+vector 25 Aloha.host[9] duration:vector ETV
+attr source duration
+attr title "Duration Package, vector"
+0	4282 83460 0 59768 0 5397.031992687157 3265 0 8 24376 186670
+1	87742 83127 0 59757 0 5396.21317978251 3263 0 8 24235 185441
+2	170869 83645 0 59777 0 5397.21317978251 3279 0 8 24256 185472
+3	254514 84129 0 59810 0 5398.11317978251 3300 0 8 24318 185802
+4	338643 83784 0 59782 0 5397.331992687157 3271 0 8 24376 186570
+5	422427 83922 0 59788 0 5397.531992687157 3277 0 8 24384 186582
+6	506349 84058 0 59797 0 5397.831992687157 3283 0 8 24392 186594
+7	590407 81284 0 59829 0 5399.28181818206 3222 0 8 24084 184534
+8	671691 84191 0 59812 0 5398.131992687157 3289 0 8 24400 186606
+9	755882 84320 0 59819 0 5398.431992687157 3295 0 8 24408 186618
+10	840202 335287 0 59825 0 5399.13068806283 11948 0 2 102 186
+11	1175489 247260 0 59824 0 5399.046525627355 8676 0 2 92 174
+12	1422749 125380 0 59830 0 5399.7 6475 0 2 6 10
+13	1548129 9 0 0 0 0 1 0 0 0 0
+14	1548138 9 0 0 0 0 1 0 0 0 0
+15	1548147 9 0 0 0 0 1 0 0 0 0
+16	1548156 22539 1 59759 0.4 5396.785191955896 546 0.009481481481 5.046800731261 2710.5158800188 13677.513734873
+17	1570695 22633 2 59749 0.4 5395.931285988524 550 0.009481481481 5.081893793986 2719.9691743798 13816.813807552
+18	1593328 22876 3 59762 0.4 5396.931285988524 555 0.009481481481 5.081893793986 2720.3786433497 13816.847340519
+19	1616204 23061 4 59796 0.4 5397.831285988524 560 0.009481481481 5.081893793986 2720.7881123197 13816.880873487
+20	1639265 22682 5 59770 0.4 5397.085191955896 548 0.009481481481 5.046800731261 2710.6094814813 13677.51811549
+21	1661947 22758 6 59779 0.4 5397.285191955896 550 0.009481481481 5.046800731261 2710.7030829438 13677.522496107
+22	1684705 22832 7 59789 0.4 5397.585191955896 552 0.009481481481 5.046800731261 2710.7966844063 13677.526876724
+23	1707537 22036 8 59821 0.4 5398.936363636605 539 0.009481481481 5.145454545455 2738.2640269363 14085.200751058
+24	1729573 22906 9 59798 0.4 5397.885191955896 554 0.009481481481 5.046800731261 2710.8902858688 13677.531257341
+25	1752479 22974 10 59813 0.4 5398.185191955896 556 0.009481481481 5.046800731261 2710.9838873314 13677.535637958
+

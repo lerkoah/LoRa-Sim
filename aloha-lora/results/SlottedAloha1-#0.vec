@@ -1,0 +1,147 @@
+version 2
+run SlottedAloha1-0-20171121-15:12:05-6280
+attr configname SlottedAloha1
+attr datetime 20171121-15:12:05
+attr experiment SlottedAloha1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Aloha
+attr processid 6280
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param Aloha.slotTime 100ms
+param Aloha.host[*].iaTime exponential(0.5s)
+param Aloha.numHosts 10
+param Aloha.slotTime 100ms
+param Aloha.txRate 9.6kbps
+param Aloha.host[*].pkLenBits 952b
+param Aloha.host[*].radioDelay 10ms
+param Aloha.server.pkLenBits 952b
+param Aloha.server.radioDelay 10ms
+param Aloha.server.iaTime exponential(0.4s)
+param Aloha.host[*].distance "normal(3, 1)"
+param Aloha.sf*.per 0
+
+vector 0 Aloha.host[0] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 1 Aloha.host[1] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 2 Aloha.host[2] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 3 Aloha.host[3] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 4 Aloha.host[4] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 5 Aloha.host[5] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 6 Aloha.host[6] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 7 Aloha.host[7] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 8 Aloha.host[8] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 9 Aloha.host[9] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr source state
+attr title "Radio state, vector"
+vector 10 Aloha.sf7 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 11 Aloha.sf8 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 12 Aloha.sf9 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 13 Aloha.sf10 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 14 Aloha.sf11 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+vector 15 Aloha.sf12 serverChannelState:vector ETV
+attr enum "IDLE = 0, TRANSMIT = 1 , PRERECEIVE = 2, RECEIVE = 3, RECEIVE2=4, IDLE2 = 5, ACK=6, ACK2=7, SLEEP=8"
+attr source channelState
+attr title "Channel state, vector"
+0	0	0	0
+0	1	0.4	2
+0	11	0.426666666667	1
+0	21	0.426666666667	1
+1	0	0	0
+1	2	0.4	2
+1	12	0.426666666667	1
+1	22	0.426666666667	1
+2	0	0	0
+2	3	0.4	2
+2	13	0.426666666667	1
+2	23	0.426666666667	1
+3	0	0	0
+3	4	0.4	2
+3	14	0.426666666667	1
+3	24	0.426666666667	1
+4	0	0	0
+4	5	0.4	2
+4	15	0.426666666667	1
+4	25	0.426666666667	1
+5	0	0	0
+5	6	0.4	2
+5	16	0.426666666667	1
+5	26	0.426666666667	1
+6	0	0	0
+6	7	0.4	2
+6	17	0.426666666667	1
+6	27	0.426666666667	1
+7	0	0	0
+7	8	0.4	2
+7	18	0.426666666667	1
+7	28	0.426666666667	1
+8	0	0	0
+8	9	0.4	2
+8	19	0.426666666667	1
+8	29	0.426666666667	1
+9	0	0	0
+9	10	0.4	2
+9	20	0.426666666667	1
+9	30	0.426666666667	1
+10	0	0	0
+10	31	0.5	1
+10	35	0.5	2
+10	36	0.5	2
+10	37	0.5	2
+11	0	0	0
+11	32	0.5	1
+11	33	0.5	2
+11	34	0.5	2
+12	0	0	0
+13	0	0	0
+14	0	0	0
+15	0	0	0
+

@@ -1,0 +1,30 @@
+file 733 1511288737                                             
+version 2
+run PureAloha3-0-20171121-15:25:08-6893
+attr configname PureAloha3
+attr datetime 20171121-15:25:08
+attr experiment PureAloha3
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Aloha
+attr processid 6893
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param Aloha.host[*].iaTime exponential(30s)
+param Aloha.numHosts 10
+param Aloha.slotTime 100ms
+param Aloha.txRate 9.6kbps
+param Aloha.host[*].pkLenBits 952b
+param Aloha.host[*].radioDelay 10ms
+param Aloha.server.pkLenBits 952b
+param Aloha.server.radioDelay 10ms
+param Aloha.server.iaTime exponential(0.4s)
+param Aloha.host[*].distance "normal(4, 3)"
+param Aloha.sf*.per 10
+
+
